@@ -1,0 +1,12 @@
+# This file maps profile filenames (excluding .toml)
+# to names as it appears in the UI drop down menus
+
+[machine_profiles]
+manufacturer = "*"
+cura_default = "Cura Default"
+
+[material_brands]
+generic = "Unbranded"
+
+[print_profiles]
+cura_default = "Cura Default"
