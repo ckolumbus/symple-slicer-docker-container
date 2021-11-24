@@ -1,13 +1,13 @@
 # Docker Container for Symple-Slicer
 
-This is a simple docker file to creat an image with the 
+This is a simple docker file to create an image with the 
 very cool [symple-slicer] web based slicing frontend using
 [CuraEngine] as backend.
 
 ## Features
 
-* local persistnat configuration volume
-* disabled auto-update features to prevent 
+* local persistant configuration volume
+* disabled auto-update feature to prevent 
   error popup on startup
 * small size (150Mb) due to using docker multi-stage build
   and `bitnami/minideb` as base image
